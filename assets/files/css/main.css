@@ -162,7 +162,7 @@ html{
 body{
   font-family:Courier New, "Courier New",serif;
   font-weight:400;
-  color:#6b727b;
+  color:#fff;
   line-height:1.5;
   background-color: black;
   background-image: url("../../media/images/bg.jpg");
@@ -273,13 +273,13 @@ img.responsive{
 h1,h2,h3,h4,h5,h6{
   margin:0 0 20px 0;
   padding:0;
-  font-family:AvenirLTStd-Heavy,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:Courier New, "Courier New",serif;
   font-weight:400;
   color:#121212;
   line-height:1.1
 }
 h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{
-  font-family:AvenirLTStd-Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:Courier New, "Courier New",serif;
   font-weight:400;
   font-size:.6em;
   color:#6b727b
@@ -304,22 +304,22 @@ h6{
 }
 p{
   margin:20px 0;
-  font-family:AvenirLTStd-Roman,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:Courier New, "Courier New",serif;
   font-weight:400;
   font-size:1.6rem;
-  color:#6b727b;
+  color:#fff;
   line-height:1.6
 }
 .lead{
   margin:0 0 65px 0;
-  font-family:AvenirLTStd-Medium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:Courier New, "Courier New",serif;
   font-weight:400;
   font-size:1.8rem;
-  color:#121212;
+  color:#fff;
   line-height:1.5
 }
 strong{
-  font-family:AvenirLTStd-Black,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:Courier New, "Courier New",serif;
   font-weight:400
 }
 em{
@@ -338,7 +338,7 @@ blockquote{
 }
 blockquote p{
   margin:0;
-  font-family:AvenirLTStd-Roman,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:Courier New, "Courier New",serif;
   font-weight:400;
   font-size:1.6rem;
   font-style:normal;
@@ -357,7 +357,7 @@ blockquote cite{
 .pullout{
   margin:0;
   padding:0;
-  font-family:AvenirLTStd-Roman,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:Courier New, "Courier New",serif;
   font-weight:400;
   font-size:1.6rem;
   border:solid #02a1d7;
@@ -369,7 +369,7 @@ ol,ul{
 }
 ol li,ul li{
   margin:0;
-  font-family:AvenirLTStd-Roman,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:Courier New, "Courier New",serif;
   font-weight:400;
   font-size:1.6rem;
   color:#6b727b
@@ -402,20 +402,20 @@ dl{
 }
 dt{
   margin:10px 0;
-  font-family:AvenirLTStd-Heavy,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:Courier New, "Courier New",serif;
   font-weight:400;
   font-size:1.6rem;
   color:#6b727b
 }
 dd{
   margin:0 0 20px 0;
-  font-family:AvenirLTStd-Roman,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:Courier New, "Courier New",serif;
   font-weight:400;
   font-size:1.6rem;
   color:#6b727b
 }
 code{
-  font-family:Monaco,Menlo,Consolas,"Courier New",monospace;
+  font-family:Courier New, "Courier New",serif;
   font-weight:400;
   font-size:1.2rem;
   color:#b2347e
@@ -446,7 +446,7 @@ pre code{
 kbd{
   margin:0 5px;
   padding:4px;
-  font-family:Monaco,Menlo,Consolas,"Courier New",monospace;
+  font-family:Courier New, "Courier New",serif;
   font-weight:400;
   font-size:1.2rem;
   color:#b2347e;
@@ -2610,14 +2610,13 @@ figcaption{
   color: white;
   font-weight:400;
   font-style:normal;
-  letter-spacing:-.1rem;
 }
 
 @media (max-width:767px){
   .header-title{
     font-size: 6.2rem;
   }
-  .sub-header-title{
+  .sub-header-title,.sub-header-alt{
     font-size: 4.2rem;
   }
 }
@@ -2977,11 +2976,11 @@ figcaption{
 }
 .section-title{
   margin-bottom:15px;
-  font-family:AvenirLTStd-Black,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:Courier New, "Courier New",serif;;
   font-weight:400;
   font-style:normal;
   letter-spacing:.2rem;
-  text-transform:uppercase
+  color: peachpuff;
 }
 .tile{
   width:100%
