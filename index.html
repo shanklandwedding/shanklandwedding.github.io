@@ -52,7 +52,7 @@
         <h2 class="sub-header-alt">12.30pm</h2>
         <img class="divider dividerMargin" src="assets/media/images/divide.svg" alt="">
         <nav class="navigation">
-          <a href="#about">Location</a>
+          <a href="#location">Location</a>
           <a href="#projects">Accommodation</a>
           <a href="#work">Order of the day</a>
           <a href="#achievements">RSVP</a>
@@ -60,19 +60,25 @@
         </nav>
       </header>
 
-      <section id="about" class="content" aria-labelledby="about-title">
+      <section id="location" class="content" aria-labelledby="about-title">
         <h2 id="about-title" class="section-title">Location</h2>
         <p class="">Coed Hills Rural Artspace is located two miles east of Cowbridge in St Hilary just off the A48. Below you can find a map and directions showing how to get there from Culverhouse Cross, along with the address and contact details.</p>
       </section>
 
-      <section id="about" class="content" aria-labelledby="about-title">
+      <section class="content" aria-labelledby="about-title">
         <h2 id="about-title" class="section-title">Directions</h2>
         <ul class="directionsList">
           <li class="directionsList">From Culverhouse Cross, head West on the A48 towards Cowbridge for 12 Miles</li>
           <li class="directionsList">Take a left on Llantrithyd Road, sign posted, St Hilary</li>
           <li class="directionsList">Follow the road down and from here there will be signs directing you to the site.</li>
         </ul>
+      </section>
 
+      <section class="content" aria-labelledby="about-title">
+        <h2 id="about-title" class="section-title">Map</h2>
+        <div id="mapwrap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.5085953848957!2d-3.402737905265468!3d51.44881791174168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDI2JzU1LjciTiAzwrAyNCcxMC4xIlc!5e0!3m2!1sen!2sus!4v1446925597157" width="100%" height="436px;" frameborder="0" style="border:0" marginheight="0" marginwidth="0" allowfullscreen></iframe>
+        </div>
       </section>
 
       <section id="contact" class="content content-center" aria-labelledby="contact-title">
@@ -112,6 +118,22 @@
       </footer>
 
     </div>
-
-
-  </body></html>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script>
+    var onMapMouseleaveHandler = function (event) {
+      var that = $(this);
+      that.on('click', onMapClickHandler);
+      that.off('mouseleave', onMapMouseleaveHandler);
+      that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function (event) {
+      var that = $(this);
+      that.off('click', onMapClickHandler);
+      that.find('iframe').css("pointer-events", "auto");
+      that.on('mouseleave', onMapMouseleaveHandler);
+    }
+    $('#mapwrap').on('click', onMapClickHandler);
+  </script>
+  </body>
+</html>

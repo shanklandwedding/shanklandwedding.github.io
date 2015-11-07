@@ -3008,3 +3008,6 @@ body{
   color: white;
   margin-left: 20px;
 }
+#mapwrap iframe {
+  pointer-events: none;
+}
