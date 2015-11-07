@@ -164,6 +164,7 @@ body{
   font-weight:400;
   color:#6b727b;
   line-height:1.5;
+  background-color: black;
   background-image: url("../../media/images/bg.jpg");
   background-size: 100%;
   background-repeat: repeat;
