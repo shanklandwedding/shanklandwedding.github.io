@@ -306,7 +306,7 @@ p{
   margin:20px 0;
   font-family:Courier New, "Courier New",serif;
   font-weight:400;
-  font-size:1.6rem;
+  font-size:1.9rem;
   color:#fff;
   line-height:1.6
 }
@@ -3001,4 +3001,10 @@ body{
 }
 .media-1680-800{
   padding-top:47.61904762%
+}
+.directionsList {
+  list-style: disc;
+  font-size: 1.9rem;
+  color: white;
+  margin-left: 20px;
 }
