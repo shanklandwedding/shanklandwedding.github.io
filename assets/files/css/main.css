@@ -2603,7 +2603,10 @@ figcaption{
 }
 @media (max-width:767px){
   .header-title{
-    font-size:12.2rem
+    font-size: 6.2rem;
+  }
+  .sub-header-title{
+    font-size: 3.1rem;
   }
 }
 .navigation a{
