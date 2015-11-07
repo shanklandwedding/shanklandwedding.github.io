@@ -165,6 +165,7 @@ body{
   color:#6b727b;
   line-height:1.5;
   background-image: url("../../media/images/bg.jpg");
+  background-size: auto;
 }
 html{
   font-size:10px
