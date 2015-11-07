@@ -198,13 +198,13 @@ html{
   }
 }
 a{
-  color:#121212;
+  color:#fff;
   text-decoration:none;
   -webkit-transition:color .2s ease-in-out;
   transition:color .2s ease-in-out
 }
 a:focus,a:hover{
-  color:#121212;
+  color:peachpuff;
   text-decoration:underline
 }
 img{
