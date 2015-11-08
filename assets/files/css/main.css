@@ -28,7 +28,8 @@ audio:not([controls]){
   display:none
 }
 a{
-  background-color:transparent
+  background-color:transparent;
+  word-wrap: break-word;
 }
 a:active,a:hover{
   outline:0
