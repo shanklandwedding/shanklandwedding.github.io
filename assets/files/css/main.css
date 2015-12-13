@@ -2515,11 +2515,13 @@ figcaption{
   text-transform:uppercase
 }
 .content{
-  padding:50px 15px;
+  padding:50px 0;
+  margin: 0 auto;
 }
 @media (min-width:1024px){
   .content{
-    padding:100px 50px
+    padding:100px 50px;
+    margin: 0 auto;
   }
 }
 .content h2:first-child,.content h3:first-child,.content h4:first-child{
