@@ -164,8 +164,7 @@ body{
   line-height:1.5;
   background-color: black;
   background-image: url("../../media/images/bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 html{
   font-size:10px
