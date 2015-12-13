@@ -2466,7 +2466,6 @@ figcaption{
   border-radius:56px
 }
 .header-title{
-  margin:30px 0 10px;
   font-family:Courier New, "Courier New",serif;
   color: peachpuff;
   font-weight:400;
@@ -2474,7 +2473,6 @@ figcaption{
   letter-spacing:.2rem;
 }
 .sub-header-title{
-  margin:30px 0 10px;
   font-family:Adage, Adage Script JF, "Adage", "Adage Script JF",serif;
   color: white;
   font-weight:400;
@@ -2482,7 +2480,6 @@ figcaption{
   letter-spacing:-.1rem;
 }
 .sub-header-alt{
-  margin:30px 0 10px;
   font-family:Courier New, "Courier New",serif;
   color: white;
   font-weight:400;
@@ -2506,7 +2503,7 @@ figcaption{
   height:auto;
 }
 .dividerMargin {
-  margin: 15px 0;
+  margin: 15px auto;
 }
 .navigation a{
   display:inline-block;
