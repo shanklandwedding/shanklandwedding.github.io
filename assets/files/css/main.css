@@ -11,10 +11,10 @@ html{
   -webkit-text-size-adjust:100%
 }
 body{
-  margin:0 auto;
+  margin:0
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{
-  display: inline-block;
+  display:block
 }
 audio,canvas,progress,video{
   display:inline-block;
@@ -164,7 +164,8 @@ body{
   line-height:1.5;
   background-color: black;
   background-image: url("../../media/images/bg.jpg");
-  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 html{
   font-size:10px
@@ -457,18 +458,14 @@ kbd{
 }
 .container:after,.container:before{
   content:" ";
-  display:table-cell;
-  text-align: center;
-  vertical-align: middle;
+  display:table
 }
 .container:after{
   clear:both
 }
 .container:after,.container:before{
   content:" ";
-  display:table-cell;
-  text-align: center;
-  vertical-align: middle;
+  display:table
 }
 .container:after{
   clear:both
@@ -477,40 +474,35 @@ kbd{
   .container{
     padding-left:50px;
     padding-right:50px;
-    max-width:1680px;
-    margin:0 auto;
+    max-width:1680px
   }
 }
 @media (min-width:1280px) and (max-width:1679px){
   .container{
     padding-left:35px;
     padding-right:35px;
-    max-width:1280px;
-    margin:0 auto;
+    max-width:1280px
   }
 }
 @media (min-width:1024px) and (max-width:1279px){
   .container{
     padding-left:15px;
     padding-right:15px;
-    max-width:1024px;
-    margin:0 auto;
+    max-width:1024px
   }
 }
 @media (min-width:768px) and (max-width:1023px){
   .container{
     padding-left:15px;
     padding-right:15px;
-    max-width:100%;
-    margin:0 auto;
+    max-width:100%
   }
 }
 @media (max-width:767px){
   .container{
     padding-left:15px;
     padding-right:15px;
-    max-width:100%;
-    margin:0 auto;
+    max-width:100%
   }
 }
 .row{
@@ -2455,17 +2447,22 @@ figcaption{
   src:url(../../../assets/fonts/courier.eot?#iefix) format('embedded-opentype'),url(../../../assets/fonts/courier.woff2) format('woff2'),url(../../../assets/fonts/courier.woff) format('woff'),url(../../../assets/fonts/courier.ttf) format('truetype')
 }
 .header{
-  position: relative;
-  padding:50px 0;
+  padding:50px 15px;
   text-align:center;
-  margin: 0 auto;
+}
+@media (min-width:1024px){
+  .header{
+    padding:50px
+  }
 }
 .header-avatar{
+  margin:0 auto;
   width:200px;
   height:200px;
   border-radius:56px
 }
 .header-title{
+  margin:30px 0 10px;
   font-family:Courier New, "Courier New",serif;
   color: peachpuff;
   font-weight:400;
