@@ -14,7 +14,7 @@ body{
   margin:0 auto;
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{
-  display:block
+  display: inline-block;
 }
 audio,canvas,progress,video{
   display:inline-block;
@@ -2454,7 +2454,6 @@ figcaption{
   padding:50px 0;
   text-align:center;
   margin: 0 auto;
-  display: inline-block;
 }
 @media (min-width:1024px){
   .header{
