@@ -2454,6 +2454,7 @@ figcaption{
   padding:50px 0;
   text-align:center;
   margin: 0 auto;
+  vertical-align: middle;
 }
 @media (min-width:1024px){
   .header{
