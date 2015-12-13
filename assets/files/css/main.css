@@ -2448,10 +2448,12 @@ figcaption{
 .header{
   padding:50px 15px;
   text-align:center;
+  margin: 0 auto;
 }
 @media (min-width:1024px){
   .header{
-    padding:50px
+    padding:50px;
+    margin: 0 auto;
   }
 }
 .header-avatar{
