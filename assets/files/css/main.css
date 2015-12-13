@@ -473,35 +473,40 @@ kbd{
   .container{
     padding-left:50px;
     padding-right:50px;
-    max-width:1680px
+    max-width:1680px;
+    margin:0 auto;
   }
 }
 @media (min-width:1280px) and (max-width:1679px){
   .container{
     padding-left:35px;
     padding-right:35px;
-    max-width:1280px
+    max-width:1280px;
+    margin:0 auto;
   }
 }
 @media (min-width:1024px) and (max-width:1279px){
   .container{
     padding-left:15px;
     padding-right:15px;
-    max-width:1024px
+    max-width:1024px;
+    margin:0 auto;
   }
 }
 @media (min-width:768px) and (max-width:1023px){
   .container{
     padding-left:15px;
     padding-right:15px;
-    max-width:100%
+    max-width:100%;
+    margin:0 auto;
   }
 }
 @media (max-width:767px){
   .container{
     padding-left:15px;
     padding-right:15px;
-    max-width:100%
+    max-width:100%;
+    margin:0 auto;
   }
 }
 .row{
