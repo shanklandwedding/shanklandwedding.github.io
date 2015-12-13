@@ -14,7 +14,7 @@ body{
   margin:0
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{
-  display:block
+  display:inline-block
 }
 audio,canvas,progress,video{
   display:inline-block;
@@ -344,7 +344,7 @@ blockquote p{
   color:#6b727b
 }
 blockquote cite{
-  display:block;
+  display:inline-block;
   margin:0;
   font-family:Courier New, "Courier New",serif;
   font-size:1.4rem;
@@ -1579,7 +1579,7 @@ kbd{
   }
 }
 figure{
-  display:block;
+  display:inline-block;
   margin:0;
   padding:0;
   border:none
@@ -1593,13 +1593,13 @@ figcaption{
   text-align:left
 }
 .media{
-  display:block;
+  display:inline-block;
   position:relative;
   overflow:hidden;
   background:#fff
 }
 .media>.media-inner,.media>iframe,.media>img,.media>svg,.media>video{
-  display:block;
+  display:inline-block;
   position:absolute;
   top:0;
   right:0;
@@ -1646,7 +1646,7 @@ figcaption{
   clear:both
 }
 .center-block{
-  display:block;
+  display:inline-block;
   margin-left:auto;
   margin-right:auto
 }
@@ -2568,7 +2568,7 @@ figcaption{
 }
 @media (max-width:767px){
   .content strong{
-    display:block
+    display:inline-block
   }
 }
 .content ul:last-child{
