@@ -2504,7 +2504,7 @@ figcaption{
 .divider {
   margin:0 auto;
   width:60px;
-  height:auto;
+  height:100%;
 }
 .dividerMargin {
   margin: 15px 0;
