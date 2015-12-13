@@ -2455,6 +2455,7 @@ figcaption{
   src:url(../../../assets/fonts/courier.eot?#iefix) format('embedded-opentype'),url(../../../assets/fonts/courier.woff2) format('woff2'),url(../../../assets/fonts/courier.woff) format('woff'),url(../../../assets/fonts/courier.ttf) format('truetype')
 }
 .header{
+  position: relative;
   padding:50px 0;
   text-align:center;
   margin: 0 auto;
