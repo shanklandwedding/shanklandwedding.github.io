@@ -2498,7 +2498,7 @@ figcaption{
     font-size: 4.2rem;
   }
   .section-title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 .divider {
@@ -2951,4 +2951,9 @@ button:hover, a.button:hover {
 }
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
+}
+@media (max-width: 380px)
+.section-title {
+    font-size: 4rem;
+  }
 }
